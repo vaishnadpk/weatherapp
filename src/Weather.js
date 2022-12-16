@@ -25,7 +25,7 @@ export default function Weather(props) {
     const iconUrl = `http://openweathermap.org/img/wn/${weatherData.icon}@2x.png`;
     return (
       <div className="Weather">
-        <form>
+        <form className="formStyle">
           <div className="row">
             <div className="col-9">
               <input
@@ -48,16 +48,16 @@ export default function Weather(props) {
           <li className="text-capitalize">{weatherData.description}</li>
         </ul>
         <div className="row">
-          <div className="col">
+          <div className="col-8">
             <img src={iconUrl} alt={weatherData.description} />
             <span className="temp">
               {Math.round(weatherData.temperature)}°C
             </span>
           </div>
-          <div className="col-6">
+          <div className="col-3">
             <ul>
               <li>Humidity: {Math.round(weatherData.humidity)}%</li>
-              <li>Wind:{weatherData.wind}m/s</li>
+              <li>Wind:{Math.round(weatherData.wind)}m/s</li>
             </ul>
           </div>
         </div>
