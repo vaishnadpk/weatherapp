@@ -8,14 +8,16 @@ export default function App() {
         <h1 className="title">Weather App</h1>
         <Weather defaultCity="Helsingborg" />
         <footer>
-          This is codes by Vaishna Upendran and is an{" "}
+          This is coded by Vaishna Upendran and is an Open-sourced code on{" "}
           <a
             href="https://github.com/vaishnadpk/weatherapp"
             target="_blank"
             rel="noreferrer"
           >
-            Open-sourced code.
-          </a>
+            Github
+          </a>{" "}
+          and hosted on{" "}
+          <a href="https://ubiquitous-kashata-23e420.netlify.app/">Netlify</a>
         </footer>
       </div>
     </div>
