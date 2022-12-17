@@ -1,8 +1,8 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 function WeatherInfo(props) {
-  const iconUrl = `http://openweathermap.org/img/wn/${props.data.icon}@2x.png`;
   return (
     <div className="WeatherInfo">
       <h1>
@@ -14,7 +14,9 @@ function WeatherInfo(props) {
       </ul>
       <div className="row">
         <div className="col-8">
-          <img className="icon" src={iconUrl} alt={props.data.description} />
+          <div className="float-left">
+            <WeatherIcon code={props.data.icon} />
+          </div>
           <span className="temp">{Math.round(props.data.temperature)}</span>
           <small>°C | °F </small>
         </div>
