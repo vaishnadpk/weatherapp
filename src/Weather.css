@@ -16,3 +16,16 @@
   list-style: none;
   padding-left: 0;
 }
+small {
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+}
+.icon {
+  position: relative;
+  bottom: 10px;
+}
+.loader {
+  text-align: center;
+  padding: 25px;
+}
