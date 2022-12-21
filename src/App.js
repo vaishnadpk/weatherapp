@@ -1,9 +1,11 @@
 import "./App.css";
+import Background from "./Background";
 import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
+      <Background />
       <div className="container">
         <h1 className="title">Weather App</h1>
         <Weather defaultCity="Helsingborg" />

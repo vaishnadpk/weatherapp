@@ -1,8 +1,23 @@
+.App .container {
+  margin-top: -600px;
+}
 .title {
   text-align: center;
-  padding: 25px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  width: 530px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #fff;
+  transition: all 0.3s ease-out;
+}
+.title:hover {
+  transform: scale(1.5);
 }
 footer {
   text-align: center;
   padding: 20px;
+  color: white;
 }
