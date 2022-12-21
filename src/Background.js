@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./static/D&N.mp4";
+import video from "./static/D&N.mov";
 import "./Background.css";
 
 function Background() {
