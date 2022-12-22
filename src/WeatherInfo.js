@@ -28,7 +28,7 @@ function WeatherInfo(props) {
           </ul>
         </div>
       </div>
-      <WeatherForecast />
+      <WeatherForecast coordinates={props.data.coordinates} />
     </div>
   );
 }
