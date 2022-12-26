@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import "./WeatherforecastDay.css";
 
 function WeatherforecastDay(props) {
   const { weather, temp, dt } = props.data;

@@ -34,12 +34,18 @@ export default function App() {
           <a
             href="https://github.com/vaishnadpk/weatherapp"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Github
           </a>{" "}
           and hosted on{" "}
-          <a href="https://ubiquitous-kashata-23e420.netlify.app/">Netlify</a>
+          <a
+            href="https://ubiquitous-kashata-23e420.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>

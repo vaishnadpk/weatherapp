@@ -62,8 +62,8 @@ export default function Weather(props) {
 
     return (
       <div className="loader">
-        <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
+        <div className="spinner-border text-primary" role="status">
+          <span className="visually-hidden">Loading...</span>
         </div>
         <h3>Loading...</h3>
       </div>

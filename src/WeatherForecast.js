@@ -27,6 +27,8 @@ function WeatherForecast(props) {
                   <WeatherforecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
@@ -41,8 +43,8 @@ function WeatherForecast(props) {
     axios.get(apiUrl).then(handleResponse);
     return (
       <div className="loader">
-        <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
+        <div className="spinner-border text-primary" role="status">
+          <span className="visually-hidden">Loading...</span>
         </div>
         <h3>Loading...</h3>
       </div>
